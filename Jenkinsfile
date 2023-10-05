@@ -8,7 +8,7 @@ pipeline{
             steps
             {
                 git 'https://github.com/gPandey1703/JenkinsUnitTest_Trial.git'
-                bat '.\mvnm clean Compile'
+                bat './mvnm clean Compile'
             }
         }
     }
